@@ -1,5 +1,5 @@
 # PGML
-This repository contains codes related to our work on physics-guided machine learning applied to aerodynamic forces prediction task.
+This repository contains codes related to our work on physics-guided machine learning applied to real-time aerodynamic forces prediction task.
 
 # Published Journals
 For more details on this work, please refer https://arxiv.org/abs/2012.13343
