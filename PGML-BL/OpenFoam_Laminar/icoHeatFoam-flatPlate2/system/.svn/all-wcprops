@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/openfoam-extend/!svn/ver/349/trunk/Core/OpenFOAM-1.4.1-dev/tutorials/conjugateHeatFoam/conjugateCavity/system
+END
+fvSchemes
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/openfoam-extend/!svn/ver/349/trunk/Core/OpenFOAM-1.4.1-dev/tutorials/conjugateHeatFoam/conjugateCavity/system/fvSchemes
+END
+controlDict
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/openfoam-extend/!svn/ver/349/trunk/Core/OpenFOAM-1.4.1-dev/tutorials/conjugateHeatFoam/conjugateCavity/system/controlDict
+END
+sampleDict
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/openfoam-extend/!svn/ver/349/trunk/Core/OpenFOAM-1.4.1-dev/tutorials/conjugateHeatFoam/conjugateCavity/system/sampleDict
+END
+fvSolution
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/openfoam-extend/!svn/ver/349/trunk/Core/OpenFOAM-1.4.1-dev/tutorials/conjugateHeatFoam/conjugateCavity/system/fvSolution
+END
+solid
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/openfoam-extend/!svn/ver/349/trunk/Core/OpenFOAM-1.4.1-dev/tutorials/conjugateHeatFoam/conjugateCavity/system/solid
+END

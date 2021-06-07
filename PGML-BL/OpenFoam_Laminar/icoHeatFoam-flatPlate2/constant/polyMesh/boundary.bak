@@ -1,0 +1,70 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.4.1-dev                             |
+|   \\  /    A nd           | Web:      http://www.openfoam.org               |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+
+FoamFile
+{
+    version 2.0;
+    format ascii;
+
+    root "/home/mjaworsk/OpenFOAM/mjaworsk-1.4.1-dev/run/FlatPlate-Blasius";
+    case "icoHeatFoam-flatPlate2";
+    instance "constant";
+    local "polyMesh";
+
+    class polyBoundaryMesh;
+    object boundary;
+}
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+6
+(
+top
+{
+    type wall;
+    nFaces 105;
+    startFace 26020;
+}
+
+inlet
+{
+    type patch;
+    nFaces 125;
+    startFace 26125;
+}
+
+outlet
+{
+    type patch;
+    nFaces 125;
+    startFace 26250;
+}
+
+plate
+{
+    type wall;
+    nFaces 70;
+    startFace 26375;
+}
+
+symmBound
+{
+    type wall;
+    nFaces 35;
+    startFace 26445;
+}
+
+frontAndBack
+{
+    type empty;
+    nFaces 26250;
+    startFace 26480;
+}
+)
+
+// ************************************************************************* //
