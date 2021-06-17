@@ -1,0 +1,71 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.4.1-dev                             |
+|   \\  /    A nd           | Web:      http://www.openfoam.org               |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+
+FoamFile
+{
+    version 2.0;
+    format ascii;
+
+    root "/home/mjaworsk/OpenFOAM/mjaworsk-1.4.1-dev/run/conjugateTray2D";
+    case "lithium-5mm";
+    instance "constant";
+    local "polyMesh";
+
+    class polyBoundaryMesh;
+    object boundary;
+}
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+5
+(
+movingWall
+{
+    type wall;
+    nFaces 100;
+    startFace 1890;
+}
+
+symmBound
+{
+    type symmetryPlane;
+    nFaces 10;
+    startFace 1990;
+}
+
+rightFluid
+{
+    type regionCouple;
+    nFaces 10;
+    startFace 2000;
+
+    shadowRegion   region0;
+    shadowPatch    rightFluid;
+    attached       on;
+}
+
+bottomFluid
+{
+    type regionCouple;
+    nFaces 100;
+    startFace 2010;
+
+    shadowRegion   region0;
+    shadowPatch    bottomFluid;
+    attached       on;
+}
+
+frontAndBack
+{
+    type empty;
+    nFaces 2000;
+    startFace 2110;
+}
+)
+
+// ************************************************************************* //

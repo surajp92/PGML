@@ -1,0 +1,62 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.3                                   |
+|   \\  /    A nd           | Web:      http://www.openfoam.org               |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+
+FoamFile
+{
+    version         2.0;
+    format          ascii;
+
+    root "/home/mjaworsk/OpenFOAM/mjaworsk-1.4.1-dev/run/conjugateTray2D";
+    case "lithium-5mm";
+    instance "0";
+    local "";
+
+    class           volScalarField;
+    object          p;
+}
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+
+dimensions      [0 2 -2 0 0 0 0];
+
+internalField   uniform 0;
+
+boundaryField
+{
+    top
+    {
+        type            zeroGradient;
+    }
+
+    inlet    
+    {
+        type            zeroGradient;
+    }
+
+    outlet
+    {
+        type            fixedValue;
+	value		uniform 0;
+    }
+    plate
+    {
+        type            zeroGradient;
+    }
+    symmBound
+    {
+	type		zeroGradient;
+    }
+    frontAndBack    
+    {
+        type            empty;
+    }
+}
+
+
+// ************************************************************************* //

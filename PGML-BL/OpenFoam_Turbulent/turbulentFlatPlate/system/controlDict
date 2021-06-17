@@ -47,20 +47,24 @@ runTimeModifiable true;
 
 functions
 {
+
     minMax
     {
         type          fieldMinMax;
-        libs          (fieldFunctionObjects);
+//        libs            (fieldFunctionObjects);
+	libs            ("libfieldFunctionObjects.so");
         writeControl  timeStep; //writeTime;
         fields        (U);
     }
     yPlus
     {
         type            yPlus;
-        libs            (fieldFunctionObjects);
+//        libs            (fieldFunctionObjects);
+	libs            ("libfieldFunctionObjects.so");
         patches         (fixedWall);
         writeControl    writeTime;
     }
+
     #includeFunc "writeCellCentres"
     #includeFunc "wallShearStress"
 }

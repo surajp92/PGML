@@ -1,0 +1,29 @@
+reset
+set term x11 enhanced font 'Helvetica, 18'
+
+U0 = 0.20
+
+eta(r, s) = r * sqrt(U0 / (2 * 1e-6 * s))
+
+set key inside top right vertical Left
+set pointsize 1.5
+
+Te = 350
+Tw = 275
+
+set xr [0:4]
+set yr [-0.01:1]
+set xlabel '{/Symbol h} [-]'
+set ylabel '{/Symbol Q} [-]'
+
+plot 'outputTheta.dat' u ($1):($2) t 'Blasius solution' w l,\
+     'x030_Ux_T.xy' every 2 u ( eta($1, 0.03) ):(($3-Te)/(Tw-Te))  \
+     		    t 'x = 3.0cm' w points pt 5,\
+     'x025_Ux_T.xy' every 2 u ( eta($1, 0.025) ):(($3-Te)/(Tw-Te))  \
+     		    t 'x = 2.5cm' w points pt 6,\
+     'x015_Ux_T.xy' every 2 u ( eta($1, 0.015) ):(($3-Te)/(Tw-Te)) \
+     		    t 'x = 1.5cm' w points pt 9,\
+     'x005_Ux_T.xy' every 2 u ( eta($1, 0.005) ):(($3-Te)/(Tw-Te)) \
+     		    t 'x = 0.5cm' w points pt 11
+#     0 notitle w lines lt 1
+

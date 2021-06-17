@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/openfoam-extend/!svn/ver/349/trunk/Core/OpenFOAM-1.4.1-dev/tutorials/conjugateHeatFoam/conjugateCavity/constant/polyMesh
+END
+faces
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/openfoam-extend/!svn/ver/349/trunk/Core/OpenFOAM-1.4.1-dev/tutorials/conjugateHeatFoam/conjugateCavity/constant/polyMesh/faces
+END
+neighbour
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/openfoam-extend/!svn/ver/349/trunk/Core/OpenFOAM-1.4.1-dev/tutorials/conjugateHeatFoam/conjugateCavity/constant/polyMesh/neighbour
+END
+boundary
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/openfoam-extend/!svn/ver/349/trunk/Core/OpenFOAM-1.4.1-dev/tutorials/conjugateHeatFoam/conjugateCavity/constant/polyMesh/boundary
+END
+owner
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/openfoam-extend/!svn/ver/349/trunk/Core/OpenFOAM-1.4.1-dev/tutorials/conjugateHeatFoam/conjugateCavity/constant/polyMesh/owner
+END
+blockMeshDict
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svnroot/openfoam-extend/!svn/ver/349/trunk/Core/OpenFOAM-1.4.1-dev/tutorials/conjugateHeatFoam/conjugateCavity/constant/polyMesh/blockMeshDict
+END
+points
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/openfoam-extend/!svn/ver/349/trunk/Core/OpenFOAM-1.4.1-dev/tutorials/conjugateHeatFoam/conjugateCavity/constant/polyMesh/points
+END

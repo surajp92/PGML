@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/openfoam-extend/!svn/ver/349/trunk/Core/OpenFOAM-1.4.1-dev/tutorials/conjugateHeatFoam/conjugateCavity/constant
+END
+transportProperties
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svnroot/openfoam-extend/!svn/ver/349/trunk/Core/OpenFOAM-1.4.1-dev/tutorials/conjugateHeatFoam/conjugateCavity/constant/transportProperties
+END
+solid
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/openfoam-extend/!svn/ver/349/trunk/Core/OpenFOAM-1.4.1-dev/tutorials/conjugateHeatFoam/conjugateCavity/constant/solid
+END

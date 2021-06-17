@@ -1,0 +1,20 @@
+<VTKFile type="vtkMultiBlockDataSet" version="1.0" byte_order="LittleEndian" header_type="UInt64">
+  <vtkMultiBlockDataSet>
+    <DataSet index="0" name="internalMesh" file="data_slice/data_slice_0_0.vtp">
+    </DataSet>
+    <Block index="1" name="Patches">
+      <DataSet index="0" name="top" file="data_slice/data_slice_1_0.vtp">
+      </DataSet>
+      <DataSet index="1" name="inlet" file="data_slice/data_slice_2_0.vtp">
+      </DataSet>
+      <DataSet index="2" name="outlet" file="data_slice/data_slice_3_0.vtp">
+      </DataSet>
+      <DataSet index="3" name="plate" file="data_slice/data_slice_4_0.vtp">
+      </DataSet>
+      <DataSet index="4" name="symmBound" file="data_slice/data_slice_5_0.vtp">
+      </DataSet>
+      <DataSet index="5" name="frontAndBack" file="data_slice/data_slice_6_0.vtp">
+      </DataSet>
+    </Block>
+  </vtkMultiBlockDataSet>
+</VTKFile>
