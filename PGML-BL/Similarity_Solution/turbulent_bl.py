@@ -20,7 +20,7 @@ Rex = uinf*x/nu
 
 delta = 0.38*x/(Rex**(1/5))
 
-Ly = delta[-1]*10
+Ly = 1.0 #delta[-1]*10
 y = np.linspace(0,Ly,ny+1)
 
 delta = delta.reshape([1,-1])
@@ -43,7 +43,6 @@ cf2 = 0.0456 *(nu/(uinf*delta))**(1/4)
         
 #%%
 X, Y = np.meshgrid(x,y)
-
 slice_ = np.where(Y<=delta, Y/delta, 1)
 
 #%%

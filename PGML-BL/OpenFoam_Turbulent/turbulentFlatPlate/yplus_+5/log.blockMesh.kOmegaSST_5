@@ -1,0 +1,82 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-7f7d351b741b
+Exec   : blockMesh
+Date   : Jun 26 2021
+Time   : 13:39:16
+Host   : "CUDA1"
+PID    : 32088
+I/O    : uncollated
+Case   : /mnt/46eed8d2-2b8e-417e-a471-e5282e61c266/Suraj_Files/git_workspace/PGML/Repo/PGML/PGML-BL/OpenFoam_Turbulent/turbulentFlatPlate/yplus_+5
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Deleting polyMesh directory
+    "/mnt/46eed8d2-2b8e-417e-a471-e5282e61c266/Suraj_Files/git_workspace/PGML/Repo/PGML/PGML-BL/OpenFoam_Turbulent/turbulentFlatPlate/yplus_+5/constant/polyMesh"
+Creating block mesh from
+    "/mnt/46eed8d2-2b8e-417e-a471-e5282e61c266/Suraj_Files/git_workspace/PGML/Repo/PGML/PGML-BL/OpenFoam_Turbulent/turbulentFlatPlate/yplus_+5/system/blockMeshDict"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 1
+		Number of boundary faces : 10
+		Number of defined boundary faces : 10
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 0.33333333
+    Block 0 cell size :
+        i : 0.0093561744 .. 0.0011972304
+        j : 4.9308036e-05 .. 0.014792411
+        k : 0.1 .. 0.1
+
+    Block 1 cell size :
+        i : 0.0009714167 .. 0.011235342
+        j : 4.9308036e-05 .. 0.014792411
+        k : 0.1 .. 0.1
+
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (-0.33333333 0 0) (2 1 0.1)
+  nPoints: 421512
+  nCells: 209825
+  nFaces: 840230
+  nInternalFaces: 418720
+----------------
+Patches
+----------------
+  patch 0 (start: 418720 size: 385) name: inlet
+  patch 1 (start: 419105 size: 385) name: outlet
+  patch 2 (start: 419490 size: 545) name: topWall
+  patch 3 (start: 420035 size: 449) name: bottomWall
+  patch 4 (start: 420484 size: 96) name: symmetry
+  patch 5 (start: 420580 size: 419650) name: frontAndBack
+
+End
+
