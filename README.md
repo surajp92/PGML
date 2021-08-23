@@ -1,7 +1,7 @@
 # PGML
 This repository contains codes related to our work on physics-guided machine learning applied to real-time aerodynamic forces prediction task.
 
-# Published Journals
+# Published manuscript
 For more details on this work, please refer Physics guided machine learning using simplified theories (https://aip.scitation.org/doi/10.1063/5.0038929)
 
 # Acknowledgment:
